@@ -1,0 +1,11 @@
+# MCP runtime (official Model Context Protocol Python SDK)
+mcp>=1.2.0,<2.0.0
+
+# Networking (read-only public RPC)
+httpx>=0.27.0,<1.0.0
+
+# Config / serialization
+tomli>=2.0.1; python_version < "3.11"
+tomli-w>=1.0.0
+pydantic>=2.9.0,<3.0.0
+platformdirs>=4.3.0,<5.0.0
